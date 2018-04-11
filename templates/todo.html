@@ -1,0 +1,5 @@
+<div class="todo-item" ng-repeat='task in tasks' key='task.key' ng-if='task.task!=""'>
+  <div>{{task.task}}
+  </div>
+  <button ng-click="removeItem(task.task)">close</button>  
+</div>
