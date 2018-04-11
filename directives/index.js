@@ -1,7 +1,7 @@
-myApp.directive('todoItem',function(){
+myApp.directive('todoItem', function () {
   return {
-    restrict:'EA',
-    replace:true,
-    templateUrl:'templates/todo.html'
+    restrict: 'EA',
+    replace: true,
+    templateUrl: 'templates/todo.html'
   }
-});
+})
